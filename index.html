@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitung Untung</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Hitung winrate ML</h1>
+        <p>Hitungan ini untuk mencari winrate yang ingin dicapai dengan bermodal informasi jumlah pertandingan dan winrate saat ini.</p>
+    </header>
+
+    <main>
+        <section class="main-form">
+            <form>
+                <div>
+                    <h2>Masukkan jumlah pertandingan dan winrate saat ini.</h2>
+                    <p>Semuanya berbasis angka!</p>
+                </div>
+                <div class="form-input">
+                    <div>
+                        <label for="match">Jumlah pertandingan</label>
+                        <input type="number" id="match">
+                    </div>
+
+                    <div>
+                        <label for="winrate-now">Winrate saat ini</label>
+                        <input type="number" id="winrate-now">
+                    </div>
+
+                    <div>
+                        <label for="winrate-end">Winrate yang diinginkan</label>
+                        <input type="number" id="winrate-end">
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <button type="submit" id="buttonSubmit">Hitung</button>
+
+        <section id="hasil">
+        </section>
+    </main>
+
+    <footer>&copy; Kalveth 2026</footer>
+</body>
+</html>
